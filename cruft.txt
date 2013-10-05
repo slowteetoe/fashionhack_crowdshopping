@@ -1,0 +1,3 @@
+http://www.betabrand.com/mens/pants/mens-japants-cargo-pants.html
+
+curl -X POST --data "manifest=['abc','123']" "http://localhost:4000/getData"
