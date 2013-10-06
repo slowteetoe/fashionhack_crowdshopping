@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Steve's radical crowdsourced crap</title>
+    <title>CrowdShopping</title>
+    <script src="popup.js"></script>
   </head>
   <body>
-    <p>Hola mundo!</p>
-    <form><input type="button" id="go_button" value="click me" onclick="alert('hola');"/></form>
+    <p>Please tell us where to buy this super stylish item!</p>
+    <form id="myform">
+    	<input type="hidden" id="image_hash" name="image_hash" />
+    	<input type="url" id="product_url" name="product_url" />
+    	<input type="submit" id="go_button" value="Send it!"/></form>
   </body>
 </html>
